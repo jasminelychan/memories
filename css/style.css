@@ -1,0 +1,334 @@
+*{
+margin-top: 0px;
+margin-bottom: 0px;
+padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/newton4.JPG"), url(../images/newton5.JPG);
+    background-position: center top, center top;
+    background-size: auto auto, cover;
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    font-family: monarcha, serif;
+    font-size: 1rem;
+}
+
+/* container for all content */
+.main-content{
+    margin-top: 150px;
+    margin-left: 50px;
+    /* font-size: 1.6vmin; */
+}
+
+    /* container for text paragraphs */
+    .card1{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card2{
+        width: 1100px;
+        /* padding-left: 100px;
+        padding-right: 50px; */
+        position: relative;
+        top: -100px;
+        left: 150px;
+        /* flex-basis: 1100px; */
+    }
+
+    .card3{
+        position: relative;
+        top: 0px;
+        left: 50px;
+        width: 400px;
+    }
+
+    .card4{
+        position: relative;
+        top: -500px;
+        left: 300px;
+        width: 400px;
+    }
+    
+    .card5{
+        position: relative;
+        top: -600px;
+        left: 800px;
+        width: 400px;
+    }
+
+    .card6{
+        position: relative;
+        top: -1100px;
+        left: 800px;
+        width: 400px;
+    }
+
+    .card7{
+        position: relative;
+        top: -1200px;
+        left: 200px;
+        width: 400px;
+    }
+
+    .card8{
+        position: relative;
+        top: -1200px;
+        left: 300px;
+        width: 400px;
+    }
+
+    .card9{
+        position: relative;
+        top: -1200px;
+        left: 500px;
+        width: 400px;
+    }
+
+    .card10{
+        position: relative;
+        top: -1200px;
+        left: 400px;
+        width: 400px;
+    }
+
+    .card11{
+        position: relative;
+        top: -1400px;
+        left: 1000px;
+        width: 400px;
+    }
+
+    .card12{
+        position: relative;
+        top: -1400px;
+        left: 1000px;
+        width: 400px;
+    }
+
+    .card13{
+        position: relative;
+        top: -1000px;
+        left: 600px;
+        width: 1100px;
+    }
+
+    .card14{
+        position: relative;
+        top: -800px;
+        left: 300px;
+        width: 400px;
+    }
+
+    .card15{
+        position: relative;
+        top: -1000px;
+        left: 800px;
+        width: 400px;
+    }
+
+    .card16{
+        position: relative;
+        top: -300px;
+        left: 200px;
+        width: 1100px;
+    }
+
+/* container for image */
+.rectangle1{
+    width: 20vw;
+    height: 30vh;
+    /* width: 300px; */
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(5deg); */
+    position: relative;
+    top: -250px;
+    left: 500px;
+}
+
+    .rectangle1 img{
+        width:20vw;
+        /* width: 300px; */
+        object-fit: contain;
+    }
+
+.rectangle2{
+    width: 15vw;
+    /* width: 150px; */
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -450px;
+    left: 750px;
+}
+
+    .rectangle2 img{
+        width:15vw;
+        /* width: 150px; */
+        object-fit: cover;
+    }
+
+.rectangle3{
+    /* width: 15vw; */
+    width: 400px;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -650px;
+    left: 1250px;
+}
+
+    .rectangle3 img{
+        /* width:15vw; */
+        width: 400px;
+        object-fit: cover;
+    }
+
+.rectangle4{
+    width: 15vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -1000px;
+    left: 350px;
+}
+
+    .rectangle4 img{
+        width:15vw;
+        object-fit: cover;
+    }
+
+.rectangle5{
+    width: 15vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -1050px;
+    left: 250px;
+}
+
+    .rectangle5 img{
+        width:15vw;
+        object-fit: cover;
+    }
+
+    #right{
+        text-align: right;
+    }
+
+.rectangle6{
+    width: 15vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -1100px;
+    left: 400px;
+}
+    
+    .rectangle6 img{
+        width:15vw;
+        object-fit: cover;
+    }
+
+.rectangle7{
+    width: 15vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -1500px;
+    left: 1600px;
+}
+    
+    .rectangle7 img{
+        width:15vw;
+        object-fit: cover;
+    }
+
+.rectangle8{
+    width: 25vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -1200px;
+    left: 400px;
+}
+    
+    .rectangle8 img{
+        width:25vw;
+        object-fit: cover;
+    }
+
+.rectangle9{
+    width: 30vw;
+    box-shadow: 0px 0px 20px #ff45a2;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: rotate(-2deg); */
+    position: relative;
+    top: -900px;
+    left: 200px;
+}
+    
+    .rectangle9 img{
+        width:30vw;
+        object-fit: cover;
+    }
+
+
+/* title */
+h1{
+    color: #12de19;
+    position: relative;
+    left: 150px;
+    font-size: 3em;
+    text-shadow: 5px 5px #ff45a2;
+}
+
+/* author */
+h2{
+    color: #ff45a2;
+    position: relative;
+    bottom: 20px;
+}
+
+/* quotes */
+h3{
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+    /* margin for h3 */
+    .margin{
+        margin-left: 50px;
+    }
+
+
+/* section title */
+h4{
+    color: #ff45a2;
+}
+
+/* captions */
+h5{
+    color: #ff45a2;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/* text */
+p{
+
+}
