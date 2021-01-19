@@ -294,13 +294,14 @@ h1{
     left: 150px;
     font-size: 3em;
     text-shadow: 5px 5px #ff45a2;
+    bottom: 30px;
 }
 
 /* author */
 h2{
     color: #ff45a2;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 /* quotes */
